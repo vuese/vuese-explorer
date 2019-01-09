@@ -1,6 +1,6 @@
 # vuese-explorer
 
-An online experience playground for vuese
+An online experience playground for [vuese](https://github.com/vuese/vuese)
 
 ## Contributing
 
