@@ -1,12 +1,15 @@
 {
   "name": "vuese-explorer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s",
+    "release": "release-it --no-git.requireCleanWorkingDir && npm run deploy",
+    "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
     "codemirror": "^5.42.2",
@@ -20,6 +23,7 @@
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-service": "^3.3.0",
     "babel-eslint": "^10.0.1",
+    "conventional-changelog-cli": "^2.0.11",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "^5.8.0",
     "eslint-config-prettier": "^3.3.0",
@@ -28,6 +32,7 @@
     "eslint-plugin-vue": "^5.1.0",
     "lint-staged": "^8.1.0",
     "prettier": "1.14",
+    "release-it": "^9.6.4",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "vue-eslint-parser": "^5.0.0",
