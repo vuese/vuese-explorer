@@ -12,6 +12,6 @@ git config user.email 'HcySunYang@outlook.com'
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:HcySunYang/vuese-explorer.git master:gh-pages
+git push -f git@github.com:vuese/vuese-explorer.git master:gh-pages
 
 cd -
