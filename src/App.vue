@@ -33,6 +33,12 @@
       >
         Render Result
       </button>
+      <a
+        class="githubLink"
+        href="https://github.com/vuese/vuese-explorer"
+      >
+        🔗 Github
+      </a>
     </code-mirror>
   </div>
 </template>
@@ -125,4 +131,7 @@ button[type=button]
     color #fff
   &:hover
     box-shadow 0 0 2px #42b983
+.githubLink
+  margin-left 20px
+  color #42b983
 </style>
