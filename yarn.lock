@@ -10709,10 +10709,10 @@ vue@^2.5.21:
   resolved "https://registry.npmjs.org/vue/-/vue-2.5.21.tgz#3d33dcd03bb813912ce894a8303ab553699c4a85"
   integrity sha512-Aejvyyfhn0zjVeLvXd70h4hrE4zZDx1wfZqia6ekkobLmUZ+vNFQer53B4fu0EjWBSiqApxPejzkO1Znt3joxQ==
 
-vuese@^1.4.6:
-  version "1.4.6"
-  resolved "https://registry.npmjs.org/vuese/-/vuese-1.4.6.tgz#dd9214f48ef8a5edc67adf3ce91aad3a556b3bec"
-  integrity sha512-AsdZH2Jn7b0oMpyQ/Hv1ZyLKEaMQtAxy1SDrb/yH9jxviLnhEwjp+Ej2DsxMOQNWfRMwtWVw4nCYtwjSYVMpPg==
+vuese@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.npmjs.org/vuese/-/vuese-1.4.7.tgz#9f45bb7aa3be80a37b94cb143ae896beb4b4621f"
+  integrity sha512-GztIBWVYl9FXNSjqEfcYE1eGtf1144MjBkj7+bHpOkIP6TW4UUHxuagXKNsXYFWaucXylWIKSg5acpTbjRj3fQ==
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.1.0"

@@ -15,7 +15,7 @@
     "codemirror": "^5.42.2",
     "throttle-debounce": "^2.0.1",
     "vue": "^2.5.21",
-    "vuese": "^1.4.6"
+    "vuese": "^1.4.7"
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
