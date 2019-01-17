@@ -46,8 +46,8 @@
 <script>
 import vueSource from '@/utils/vueSource'
 import { stringify } from '@/utils/tools'
-import genMarkdown from '@/utils/genMarkdown'
-import { parser, Render } from 'vuese'
+import { parser } from '@vuese/parser'
+import Render from '@vuese/markdown-render'
 
 export default {
   components: {
@@ -75,10 +75,9 @@ export default {
       try {
         this.parserRes = parser(this.vueSource)
         const VR = new Render(this.parserRes)
-        this.renderRes = VR.render()
-        this.md = genMarkdown(this.parserRes, this.renderRes)
+        this.mdRes = VR.renderMarkdown()
 
-        this.consumerSource = this.md
+        this.consumerSource = this.mdRes.content
       } catch (e) {
         this.consumerSource = e.toString()
       }
