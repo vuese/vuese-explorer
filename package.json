@@ -1,6 +1,6 @@
 {
   "name": "vuese-explorer",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
