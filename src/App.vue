@@ -76,6 +76,7 @@ export default {
         this.parserRes = parser(this.vueSource)
         const VR = new Render(this.parserRes)
         this.mdRes = VR.renderMarkdown()
+        this.renderRes = VR.render()
 
         this.consumerSource = this.mdRes.content
       } catch (e) {
@@ -87,7 +88,7 @@ export default {
       switch (type) {
         // Raw markdown
         case 0:
-          this.consumerSource = this.md
+          this.consumerSource = this.mdRes.content
           this.consumerMode = 'markdown'
           break
         // Parser result
