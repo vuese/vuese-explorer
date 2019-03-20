@@ -954,15 +954,15 @@
   resolved "https://registry.npmjs.org/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
-"@vuese/markdown-render@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@vuese/markdown-render/-/markdown-render-2.0.0.tgz#8d8cb9e81676cc4e24706a7f359091d4a8e841a8"
-  integrity sha512-VPcElDmfV31AQNGyACGrHMWnoyfAusvlsZbYvH2eDhwf2zg1IFPkrZZLW55jNKjkgYL8t6MeVmaOhCwSKjlvZQ==
+"@vuese/markdown-render@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/@vuese/markdown-render/-/markdown-render-2.1.1.tgz#03cc01db856b39d3c7e514fb7bb381bb2a955781"
+  integrity sha512-FLk2rzzP4ZN9JOvnBZ4ik/p0S3Col4SSozJuzkRnv66tNdbDoEiXNOsvpvVVfUID2s19k1ynVeo063bEsafEAg==
 
-"@vuese/parser@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/@vuese/parser/-/parser-2.0.1.tgz#a4b02ef0bd39e05ff8a090e8431c2db86ff7260b"
-  integrity sha512-V/yVjy0guiVYha28VetUPATuzqfGq/SRU2ypK3y2OnqQ2e8mtCITZx9ItxTW+OHrtTBLK+FD75nVj2f32YiYyw==
+"@vuese/parser@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.npmjs.org/@vuese/parser/-/parser-2.0.3.tgz#c9ac38935b596cabe3adbbec198a465dae9fcb42"
+  integrity sha512-pHVtTpTbVX6DEp7NoUArzi7B+O6b39ScW3CPFtrWZIoRYEfJ43D7UHN5G8B1DAp4pfkgKUEZjj9JIv85XSSEIw==
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "^7.1.0"

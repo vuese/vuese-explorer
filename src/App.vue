@@ -78,7 +78,7 @@ export default {
         this.mdRes = VR.renderMarkdown()
         this.renderRes = VR.render()
 
-        this.consumerSource = this.mdRes.content
+        this.consumerSource = this.mdRes ? this.mdRes.content : ''
       } catch (e) {
         this.consumerSource = e.toString()
       }
@@ -88,7 +88,7 @@ export default {
       switch (type) {
         // Raw markdown
         case 0:
-          this.consumerSource = this.mdRes.content
+          this.consumerSource = this.mdRes ? this.mdRes.content : ''
           this.consumerMode = 'markdown'
           break
         // Parser result
