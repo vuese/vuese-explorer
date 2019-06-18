@@ -224,7 +224,7 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.2.2", "@babel/parser@^7.2.3":
+"@babel/parser@7.2.3", "@babel/parser@^7.0.0", "@babel/parser@^7.2.2", "@babel/parser@^7.2.3":
   version "7.2.3"
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.2.3.tgz#32f5df65744b70888d17872ec106b02434ba1489"
   integrity sha512-0LyEcVlfCoFmci8mXx8A5oIkpkOgyo8dRHtxBnK9RRBwxO2+JZPNsqtVEZQ7mJFPxnXF9lfmU24mHOPI0qnlkA==
@@ -954,18 +954,18 @@
   resolved "https://registry.npmjs.org/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
-"@vuese/markdown-render@^2.2.7":
-  version "2.2.7"
-  resolved "https://registry.npmjs.org/@vuese/markdown-render/-/markdown-render-2.2.7.tgz#af0bfcf1ce87ef0506b44917100262a2b6fdcc5f"
-  integrity sha512-MkodRE4uVeOVaB3hDmm6naS5q52sGEG2NOMso3um7eJE4iYwA6v/Mp+AWUuW/cf8j5GdYLlk84Spwk1hC141jA==
+"@vuese/markdown-render@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@vuese/markdown-render/-/markdown-render-2.2.8.tgz#00e6fa3d9c559e3743045cb54922a9b3df1b5a61"
+  integrity sha512-bJps4fq4pUVt/uHAVk36sXNdgwoPh57Gx3vLBlZNxha4mgqQAKs0A0Tr5VhDXcz143uWm+HRa6mMzQ6BiRlbLQ==
 
-"@vuese/parser@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.npmjs.org/@vuese/parser/-/parser-2.1.6.tgz#7227f8b22c6415250e9d4b869060035120d074fb"
-  integrity sha512-e0SyXKJIXkkqR4A36NlmRQdg48+3mjfbjR2+4EZRK0qFaZrFbQnm5AycE5eZ8KLeGvZAAs3AdAtbrSUgTPlEJw==
+"@vuese/parser@^2.1.7":
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/@vuese/parser/-/parser-2.1.7.tgz#75b50c17ca8974bf1c9a4c23ded19027525f5e33"
+  integrity sha512-R29kGAUz41siPPvXISsuU7fH607/l36umINKxvf/Iz4kwxYRpp0/+IXxwmjbqS7CdsTLjsKEwNTInGtp4lZ4NA==
   dependencies:
     "@babel/generator" "^7.0.0"
-    "@babel/parser" "^7.1.0"
+    "@babel/parser" "7.2.3"
     "@babel/traverse" "^7.1.0"
     "@babel/types" "^7.1.3"
     vue-template-compiler "^2.5.21"

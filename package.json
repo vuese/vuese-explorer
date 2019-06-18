@@ -12,8 +12,8 @@
     "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
-    "@vuese/markdown-render": "^2.2.7",
-    "@vuese/parser": "^2.1.6",
+    "@vuese/markdown-render": "^2.2.8",
+    "@vuese/parser": "^2.1.7",
     "codemirror": "^5.42.2",
     "throttle-debounce": "^2.0.1",
     "vue": "^2.5.21"
