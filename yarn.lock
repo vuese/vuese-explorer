@@ -954,15 +954,15 @@
   resolved "https://registry.npmjs.org/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
-"@vuese/markdown-render@^2.2.8":
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/@vuese/markdown-render/-/markdown-render-2.2.8.tgz#00e6fa3d9c559e3743045cb54922a9b3df1b5a61"
-  integrity sha512-bJps4fq4pUVt/uHAVk36sXNdgwoPh57Gx3vLBlZNxha4mgqQAKs0A0Tr5VhDXcz143uWm+HRa6mMzQ6BiRlbLQ==
+"@vuese/markdown-render@^2.2.9":
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/@vuese/markdown-render/-/markdown-render-2.2.9.tgz#181ca30b8a201dca2cb77ac725d2165a05aa294a"
+  integrity sha512-e2Y5rZPeCRMwvQ/sC+9z3jJcrQ6ac93yS/WgVPI2VCXHE2oykC9lGCKJJsnHlVh6iJiq+Hq4dv3JEYwSizkl8Q==
 
-"@vuese/parser@^2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@vuese/parser/-/parser-2.1.7.tgz#75b50c17ca8974bf1c9a4c23ded19027525f5e33"
-  integrity sha512-R29kGAUz41siPPvXISsuU7fH607/l36umINKxvf/Iz4kwxYRpp0/+IXxwmjbqS7CdsTLjsKEwNTInGtp4lZ4NA==
+"@vuese/parser@^2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@vuese/parser/-/parser-2.1.8.tgz#6dcc685c0386780114c46af1cee69ab8c2464bdf"
+  integrity sha512-NZh8voWsY8UDu30DGR5lAW7m9ztXwR34Ag5xTMNKOeOS4HZE/WHWLawuaIUTc9mAagl4uAgTWhEtnIWQtY6sjg==
   dependencies:
     "@babel/generator" "^7.0.0"
     "@babel/parser" "7.2.3"
