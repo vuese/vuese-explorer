@@ -78,12 +78,13 @@ export default {
         this.mdRes = VR.renderMarkdown()
         this.renderRes = VR.render()
 
-        this.consumerSource = this.mdRes ? this.mdRes.content : ''
+        this.handleSwitch(this.currentType)
       } catch (e) {
         this.consumerSource = e.toString()
       }
     },
     handleSwitch(type) {
+      console.log(type)
       this.currentType = type
       switch (type) {
         // Raw markdown
